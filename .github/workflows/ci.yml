@@ -65,7 +65,7 @@ jobs:
 
       - name: Cleanup
         if: always()
-        run: docker rm -f weather-app-
+        run: docker rm -f weather-app-container
 
     SBOM:
       name: Generate SBOM
