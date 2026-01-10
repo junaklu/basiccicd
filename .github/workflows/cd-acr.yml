@@ -35,7 +35,6 @@ jobs:
 
                 - name: Generate image metadata
         id: meta
-        run: |
           echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
           echo "SHA=$(git rev-parse --short=8 HEAD)" >> $GITHUB_ENV
 
